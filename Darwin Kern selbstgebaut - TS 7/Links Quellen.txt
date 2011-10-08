@@ -1,0 +1,23 @@
+Darwin Sources 10.6.4
+http://www.opensource.apple.com/release/mac-os-x-1064/
+
+xnu Kernel Source
+http://www.opensource.apple.com/tarballs/xnu/xnu-1504.7.4.tar.gz
+
+Kernel Tools Source
+http://www.opensource.apple.com/tarballs/bootstrap_cmds/bootstrap_cmds-72.tar.gz
+http://www.opensource.apple.com/tarballs/cxxfilt/cxxfilt-9.tar.gz
+http://www.opensource.apple.com/tarballs/dtrace/dtrace-78.tar.gz
+http://www.opensource.apple.com/tarballs/kext_tools/kext_tools-180.2.tar.gz
+
+IOKit Source
+http://www.opensource.apple.com/tarballs/IOKitUser/IOKitUser-514.16.2.tar.gz
+
+OS X Internals: The Book
+http://osxbook.com/
+
+ssen's blog 
+http://shantonu.blogspot.com/
+
+Inside the Mac OS X Kernel - Debunking Mac OS Myth
+http://chaosradio.ccc.de/24c3_m4v_2303.html

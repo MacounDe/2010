@@ -1,0 +1,31 @@
+1. Doppelklick getxnu.command
+
+2. Sourcen bauen s.u.
+
+#CXXFILT
+cd cxxfilt-9
+mkdir -p obj sym dst
+make install RC_ARCHS="i386 x86_64" RC_CFLAGS="-arch i386 -arch x86_64 -pipe" RC_OS=macos RC_RELEASE=SnowLeopard SRCROOT=$PWD OBJROOT=$PWD/obj SYMROOT=$PWD/sym DSTROOT=$PWD/dst
+sudo ditto $PWD/dst/usr/local /usr/local
+
+# DTRACE
+cd dtrace-78
+mkdir -p obj sym dst
+xcodebuild install -target ctfconvert -target ctfdump -target ctfmerge ARCHS="i386 x86_64" SRCROOT=$PWD OBJROOT=$PWD/obj SYMROOT=$PWD/sym DSTROOT=$PWD/dst
+sudo ditto $PWD/dst/usr/local /usr/local
+
+#KEXT_TOOLS
+cd kext_tools-180
+mkdir -p obj sym dst
+xcodebuild install -target kextsymboltool -target setsegname ARCHS="i386 x86_64" SRCROOT=$PWD OBJROOT=$PWD/obj SYMROOT=$PWD/sym DSTROOT=$PWD/dst
+sudo ditto $PWD/dst/usr/local /usr/local
+
+#BOOTSTRAP_CMDS
+cd bootstrap_cmds-72
+mkdir -p obj sym dst
+make install RC_ARCHS="i386" RC_CFLAGS="-arch i386 -pipe" RC_OS=macos RC_RELEASE=SnowLeopard SRCROOT=$PWD OBJROOT=$PWD/obj SYMROOT=$PWD/sym DSTROOT=$PWD/dst
+sudo ditto $PWD/dst/usr/local /usr/local
+
+#XNU
+cd xnu-1504.7.4
+make ARCH_CONFIGS="I386 X86_64" KERNEL_CONFIGS="RELEASE"

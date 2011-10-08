@@ -1,0 +1,25 @@
+MakerBot Industries:
+http://www.makerbot.com
+
+RepRap:
+http://www.reprap.org
+
+ReplicatorG (MakerBot Druckertreiber-Anwendung):
+http://www.replicat.org
+
+Skeinforge (für MakerBot verwendetes Slice&Dice-Tool):
+http://fabmetheus.crsndoo.com/
+
+Thiniverse (freie Bibliothek für (meist) druckbare 3D-Objekte)
+http://www.thingiverse.com
+
+PleasantHardware-Blog:
+http://www.pleasantsoftware.com/developer/3d
+
+---
+
+3D-Modell "Eierbecher" (im OpenCL Vortrag als Beispieldatei verwendet):
+http://www.thingiverse.com/thing:1151
+
+3D-Modell "Trillerpfeife" (im 3D-Drucken Vortrag als Beispieldatei verwendet):
+http://www.thingiverse.com/thing:1046
