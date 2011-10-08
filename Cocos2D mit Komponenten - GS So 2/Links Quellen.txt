@@ -1,0 +1,3 @@
+https://github.com/GamingHorror/cocos2d-project
+
+http://www.cocos2d-iphone.org/

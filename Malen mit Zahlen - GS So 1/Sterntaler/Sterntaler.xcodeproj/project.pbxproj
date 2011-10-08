@@ -1,0 +1,376 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 45;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1DDD58160DA1D0A300B32029 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1DDD58140DA1D0A300B32029 /* MainMenu.xib */; };
+		256AC3DA0F4B6AC300CF3369 /* ULISterntalerAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 256AC3D90F4B6AC300CF3369 /* ULISterntalerAppDelegate.m */; };
+		5557880112213EB000BC1657 /* SterntalerBillAnimation1.png in Resources */ = {isa = PBXBuildFile; fileRef = 555787F612213EB000BC1657 /* SterntalerBillAnimation1.png */; };
+		5557880212213EB000BC1657 /* SterntalerBillAnimation2.png in Resources */ = {isa = PBXBuildFile; fileRef = 555787F712213EB000BC1657 /* SterntalerBillAnimation2.png */; };
+		5557880312213EB000BC1657 /* SterntalerCoin.png in Resources */ = {isa = PBXBuildFile; fileRef = 555787F812213EB000BC1657 /* SterntalerCoin.png */; };
+		5557880412213EB000BC1657 /* SterntalerMaggieAnimation1.png in Resources */ = {isa = PBXBuildFile; fileRef = 555787F912213EB000BC1657 /* SterntalerMaggieAnimation1.png */; };
+		5557880512213EB000BC1657 /* SterntalerMaggieAnimation2.png in Resources */ = {isa = PBXBuildFile; fileRef = 555787FA12213EB000BC1657 /* SterntalerMaggieAnimation2.png */; };
+		5557880612213EB000BC1657 /* SterntalerMaggieAnimation3.png in Resources */ = {isa = PBXBuildFile; fileRef = 555787FB12213EB000BC1657 /* SterntalerMaggieAnimation3.png */; };
+		5557880712213EB000BC1657 /* SterntalerWalkAnimation1.png in Resources */ = {isa = PBXBuildFile; fileRef = 555787FC12213EB000BC1657 /* SterntalerWalkAnimation1.png */; };
+		5557880812213EB000BC1657 /* SterntalerWalkAnimation2.png in Resources */ = {isa = PBXBuildFile; fileRef = 555787FD12213EB000BC1657 /* SterntalerWalkAnimation2.png */; };
+		5557880912213EB000BC1657 /* SterntalerWalkAnimation3.png in Resources */ = {isa = PBXBuildFile; fileRef = 555787FE12213EB000BC1657 /* SterntalerWalkAnimation3.png */; };
+		5557880A12213EB000BC1657 /* SterntalerWalkAnimation4.png in Resources */ = {isa = PBXBuildFile; fileRef = 555787FF12213EB000BC1657 /* SterntalerWalkAnimation4.png */; };
+		5557880B12213EB000BC1657 /* SterntalerWalkAnimation5.png in Resources */ = {isa = PBXBuildFile; fileRef = 5557880012213EB000BC1657 /* SterntalerWalkAnimation5.png */; };
+		5557881112213EDB00BC1657 /* ULISterntalerStageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5557881012213EDB00BC1657 /* ULISterntalerStageView.m */; };
+		5557883D1221456B00BC1657 /* ULISprite.m in Sources */ = {isa = PBXBuildFile; fileRef = 5557883C1221456B00BC1657 /* ULISprite.m */; };
+		5587409E1221737C00FBECBD /* SterntalerWalkAnimation1R.png in Resources */ = {isa = PBXBuildFile; fileRef = 558740991221737C00FBECBD /* SterntalerWalkAnimation1R.png */; };
+		5587409F1221737C00FBECBD /* SterntalerWalkAnimation2R.png in Resources */ = {isa = PBXBuildFile; fileRef = 5587409A1221737C00FBECBD /* SterntalerWalkAnimation2R.png */; };
+		558740A01221737C00FBECBD /* SterntalerWalkAnimation3R.png in Resources */ = {isa = PBXBuildFile; fileRef = 5587409B1221737C00FBECBD /* SterntalerWalkAnimation3R.png */; };
+		558740A11221737C00FBECBD /* SterntalerWalkAnimation4R.png in Resources */ = {isa = PBXBuildFile; fileRef = 5587409C1221737C00FBECBD /* SterntalerWalkAnimation4R.png */; };
+		558740A21221737C00FBECBD /* SterntalerWalkAnimation5R.png in Resources */ = {isa = PBXBuildFile; fileRef = 5587409D1221737C00FBECBD /* SterntalerWalkAnimation5R.png */; };
+		8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C165CFE840E0CC02AAC07 /* InfoPlist.strings */; };
+		8D11072D0486CEB800E47090 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; settings = {ATTRIBUTES = (); }; };
+		8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		089C165DFE840E0CC02AAC07 /* English */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
+		13E42FB307B3F0F600E4EEF1 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = /System/Library/Frameworks/CoreData.framework; sourceTree = "<absolute>"; };
+		1DDD58150DA1D0A300B32029 /* English */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = English; path = English.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		256AC3D80F4B6AC300CF3369 /* ULISterntalerAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ULISterntalerAppDelegate.h; sourceTree = "<group>"; };
+		256AC3D90F4B6AC300CF3369 /* ULISterntalerAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ULISterntalerAppDelegate.m; sourceTree = "<group>"; };
+		256AC3F00F4B6AF500CF3369 /* Sterntaler_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Sterntaler_Prefix.pch; sourceTree = "<group>"; };
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		29B97324FDCFA39411CA2CEA /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
+		29B97325FDCFA39411CA2CEA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
+		555787F612213EB000BC1657 /* SterntalerBillAnimation1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = SterntalerBillAnimation1.png; path = Images/SterntalerBillAnimation1.png; sourceTree = "<group>"; };
+		555787F712213EB000BC1657 /* SterntalerBillAnimation2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = SterntalerBillAnimation2.png; path = Images/SterntalerBillAnimation2.png; sourceTree = "<group>"; };
+		555787F812213EB000BC1657 /* SterntalerCoin.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = SterntalerCoin.png; path = Images/SterntalerCoin.png; sourceTree = "<group>"; };
+		555787F912213EB000BC1657 /* SterntalerMaggieAnimation1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = SterntalerMaggieAnimation1.png; path = Images/SterntalerMaggieAnimation1.png; sourceTree = "<group>"; };
+		555787FA12213EB000BC1657 /* SterntalerMaggieAnimation2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = SterntalerMaggieAnimation2.png; path = Images/SterntalerMaggieAnimation2.png; sourceTree = "<group>"; };
+		555787FB12213EB000BC1657 /* SterntalerMaggieAnimation3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = SterntalerMaggieAnimation3.png; path = Images/SterntalerMaggieAnimation3.png; sourceTree = "<group>"; };
+		555787FC12213EB000BC1657 /* SterntalerWalkAnimation1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = SterntalerWalkAnimation1.png; path = Images/SterntalerWalkAnimation1.png; sourceTree = "<group>"; };
+		555787FD12213EB000BC1657 /* SterntalerWalkAnimation2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = SterntalerWalkAnimation2.png; path = Images/SterntalerWalkAnimation2.png; sourceTree = "<group>"; };
+		555787FE12213EB000BC1657 /* SterntalerWalkAnimation3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = SterntalerWalkAnimation3.png; path = Images/SterntalerWalkAnimation3.png; sourceTree = "<group>"; };
+		555787FF12213EB000BC1657 /* SterntalerWalkAnimation4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = SterntalerWalkAnimation4.png; path = Images/SterntalerWalkAnimation4.png; sourceTree = "<group>"; };
+		5557880012213EB000BC1657 /* SterntalerWalkAnimation5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = SterntalerWalkAnimation5.png; path = Images/SterntalerWalkAnimation5.png; sourceTree = "<group>"; };
+		5557880F12213EDB00BC1657 /* ULISterntalerStageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ULISterntalerStageView.h; sourceTree = "<group>"; };
+		5557881012213EDB00BC1657 /* ULISterntalerStageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ULISterntalerStageView.m; sourceTree = "<group>"; };
+		55578835122143C300BC1657 /* UKHelperMacros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = UKHelperMacros.h; path = ../UliKit/UKHelperMacros.h; sourceTree = SOURCE_ROOT; };
+		5557883B1221456B00BC1657 /* ULISprite.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ULISprite.h; sourceTree = "<group>"; };
+		5557883C1221456B00BC1657 /* ULISprite.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ULISprite.m; sourceTree = "<group>"; };
+		558740991221737C00FBECBD /* SterntalerWalkAnimation1R.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = SterntalerWalkAnimation1R.png; path = Images/SterntalerWalkAnimation1R.png; sourceTree = "<group>"; };
+		5587409A1221737C00FBECBD /* SterntalerWalkAnimation2R.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = SterntalerWalkAnimation2R.png; path = Images/SterntalerWalkAnimation2R.png; sourceTree = "<group>"; };
+		5587409B1221737C00FBECBD /* SterntalerWalkAnimation3R.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = SterntalerWalkAnimation3R.png; path = Images/SterntalerWalkAnimation3R.png; sourceTree = "<group>"; };
+		5587409C1221737C00FBECBD /* SterntalerWalkAnimation4R.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = SterntalerWalkAnimation4R.png; path = Images/SterntalerWalkAnimation4R.png; sourceTree = "<group>"; };
+		5587409D1221737C00FBECBD /* SterntalerWalkAnimation5R.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = SterntalerWalkAnimation5R.png; path = Images/SterntalerWalkAnimation5R.png; sourceTree = "<group>"; };
+		8D1107310486CEB800E47090 /* Sterntaler-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Sterntaler-Info.plist"; sourceTree = "<group>"; };
+		8D1107320486CEB800E47090 /* Sterntaler.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Sterntaler.app; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8D11072E0486CEB800E47090 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		080E96DDFE201D6D7F000001 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				256AC3D80F4B6AC300CF3369 /* ULISterntalerAppDelegate.h */,
+				256AC3D90F4B6AC300CF3369 /* ULISterntalerAppDelegate.m */,
+				5557880F12213EDB00BC1657 /* ULISterntalerStageView.h */,
+				5557881012213EDB00BC1657 /* ULISterntalerStageView.m */,
+				5557883B1221456B00BC1657 /* ULISprite.h */,
+				5557883C1221456B00BC1657 /* ULISprite.m */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		1058C7A0FEA54F0111CA2CBB /* Linked Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */,
+			);
+			name = "Linked Frameworks";
+			sourceTree = "<group>";
+		};
+		1058C7A2FEA54F0111CA2CBB /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				29B97324FDCFA39411CA2CEA /* AppKit.framework */,
+				13E42FB307B3F0F600E4EEF1 /* CoreData.framework */,
+				29B97325FDCFA39411CA2CEA /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8D1107320486CEB800E47090 /* Sterntaler.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* Sterntaler */ = {
+			isa = PBXGroup;
+			children = (
+				080E96DDFE201D6D7F000001 /* Classes */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+			);
+			name = Sterntaler;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				256AC3F00F4B6AF500CF3369 /* Sterntaler_Prefix.pch */,
+				55578835122143C300BC1657 /* UKHelperMacros.h */,
+				29B97316FDCFA39411CA2CEA /* main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				8D1107310486CEB800E47090 /* Sterntaler-Info.plist */,
+				089C165CFE840E0CC02AAC07 /* InfoPlist.strings */,
+				1DDD58140DA1D0A300B32029 /* MainMenu.xib */,
+				5557880C12213EB400BC1657 /* Images */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1058C7A0FEA54F0111CA2CBB /* Linked Frameworks */,
+				1058C7A2FEA54F0111CA2CBB /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5557880C12213EB400BC1657 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				555787F612213EB000BC1657 /* SterntalerBillAnimation1.png */,
+				555787F712213EB000BC1657 /* SterntalerBillAnimation2.png */,
+				555787F812213EB000BC1657 /* SterntalerCoin.png */,
+				555787F912213EB000BC1657 /* SterntalerMaggieAnimation1.png */,
+				555787FA12213EB000BC1657 /* SterntalerMaggieAnimation2.png */,
+				555787FB12213EB000BC1657 /* SterntalerMaggieAnimation3.png */,
+				555787FC12213EB000BC1657 /* SterntalerWalkAnimation1.png */,
+				555787FD12213EB000BC1657 /* SterntalerWalkAnimation2.png */,
+				555787FE12213EB000BC1657 /* SterntalerWalkAnimation3.png */,
+				555787FF12213EB000BC1657 /* SterntalerWalkAnimation4.png */,
+				5557880012213EB000BC1657 /* SterntalerWalkAnimation5.png */,
+				558740991221737C00FBECBD /* SterntalerWalkAnimation1R.png */,
+				5587409A1221737C00FBECBD /* SterntalerWalkAnimation2R.png */,
+				5587409B1221737C00FBECBD /* SterntalerWalkAnimation3R.png */,
+				5587409C1221737C00FBECBD /* SterntalerWalkAnimation4R.png */,
+				5587409D1221737C00FBECBD /* SterntalerWalkAnimation5R.png */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8D1107260486CEB800E47090 /* Sterntaler */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C01FCF4A08A954540054247B /* Build configuration list for PBXNativeTarget "Sterntaler" */;
+			buildPhases = (
+				8D1107290486CEB800E47090 /* Resources */,
+				8D11072C0486CEB800E47090 /* Sources */,
+				8D11072E0486CEB800E47090 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Sterntaler;
+			productInstallPath = "$(HOME)/Applications";
+			productName = Sterntaler;
+			productReference = 8D1107320486CEB800E47090 /* Sterntaler.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "Sterntaler" */;
+			compatibilityVersion = "Xcode 3.1";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+			);
+			mainGroup = 29B97314FDCFA39411CA2CEA /* Sterntaler */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8D1107260486CEB800E47090 /* Sterntaler */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8D1107290486CEB800E47090 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */,
+				1DDD58160DA1D0A300B32029 /* MainMenu.xib in Resources */,
+				5557880112213EB000BC1657 /* SterntalerBillAnimation1.png in Resources */,
+				5557880212213EB000BC1657 /* SterntalerBillAnimation2.png in Resources */,
+				5557880312213EB000BC1657 /* SterntalerCoin.png in Resources */,
+				5557880412213EB000BC1657 /* SterntalerMaggieAnimation1.png in Resources */,
+				5557880512213EB000BC1657 /* SterntalerMaggieAnimation2.png in Resources */,
+				5557880612213EB000BC1657 /* SterntalerMaggieAnimation3.png in Resources */,
+				5557880712213EB000BC1657 /* SterntalerWalkAnimation1.png in Resources */,
+				5557880812213EB000BC1657 /* SterntalerWalkAnimation2.png in Resources */,
+				5557880912213EB000BC1657 /* SterntalerWalkAnimation3.png in Resources */,
+				5557880A12213EB000BC1657 /* SterntalerWalkAnimation4.png in Resources */,
+				5557880B12213EB000BC1657 /* SterntalerWalkAnimation5.png in Resources */,
+				5587409E1221737C00FBECBD /* SterntalerWalkAnimation1R.png in Resources */,
+				5587409F1221737C00FBECBD /* SterntalerWalkAnimation2R.png in Resources */,
+				558740A01221737C00FBECBD /* SterntalerWalkAnimation3R.png in Resources */,
+				558740A11221737C00FBECBD /* SterntalerWalkAnimation4R.png in Resources */,
+				558740A21221737C00FBECBD /* SterntalerWalkAnimation5R.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8D11072C0486CEB800E47090 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D11072D0486CEB800E47090 /* main.m in Sources */,
+				256AC3DA0F4B6AC300CF3369 /* ULISterntalerAppDelegate.m in Sources */,
+				5557881112213EDB00BC1657 /* ULISterntalerStageView.m in Sources */,
+				5557883D1221456B00BC1657 /* ULISprite.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		089C165CFE840E0CC02AAC07 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				089C165DFE840E0CC02AAC07 /* English */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		1DDD58140DA1D0A300B32029 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1DDD58150DA1D0A300B32029 /* English */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C01FCF4B08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = Sterntaler_Prefix.pch;
+				GCC_PREPROCESSOR_DEFINITIONS = "DEBUG=1";
+				INFOPLIST_FILE = "Sterntaler-Info.plist";
+				INSTALL_PATH = "$(HOME)/Applications";
+				PRODUCT_NAME = Sterntaler;
+			};
+			name = Debug;
+		};
+		C01FCF4C08A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = Sterntaler_Prefix.pch;
+				INFOPLIST_FILE = "Sterntaler-Info.plist";
+				INSTALL_PATH = "$(HOME)/Applications";
+				PRODUCT_NAME = Sterntaler;
+			};
+			name = Release;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PREBINDING = NO;
+				SDKROOT = macosx10.6;
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				SDKROOT = macosx10.6;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C01FCF4A08A954540054247B /* Build configuration list for PBXNativeTarget "Sterntaler" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4B08A954540054247B /* Debug */,
+				C01FCF4C08A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "Sterntaler" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}

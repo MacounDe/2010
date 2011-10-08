@@ -1,0 +1,13 @@
+Audio Queuehttp://github.com/mattgallagher/AudioStreamerhttp://code.google.com/p/audiostreamer-meta/ 
+
+CoreAudiohttp://atastypixel.com/blog/using-remoteio-audio-unit/ 
+http://www.subfurther.com/blog/?p=507 
+http://lists.apple.com/archives/Coreaudio-api
+
+Sample "Sad Robot" 
+2007 von pornophonique 
+Veröffentlicht unter CC 3.0 (by-nc-sa)
+http://www.pornophonique.de/music.php
+
+Fotos
+Alle verwendeten Bilder sind Public Domain

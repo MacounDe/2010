@@ -1,0 +1,151 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<Layer>
+  <Entity>
+    <Components>
+      <WNSpriteComponent>
+		<Properties>
+			<File type="NSString" value="Icon.png" />
+			<Z type="int" value="0" />
+			<Tag type="int" value="100" />
+		</Properties>
+      </WNSpriteComponent>
+      <WNMoveComponent>
+        <Properties>
+			<Tag type="int" value="111" />
+          <Direction type="float" value="33.333" />
+          <Speed type="float" value="66" />
+        </Properties>
+      </WNMoveComponent>
+      <WNWrapAroundBorderComponent>
+        <Properties>
+          <Boundary type="CGRect" value="{{0, 0}, {480, 320}}" />
+        </Properties>
+      </WNWrapAroundBorderComponent>
+      <WNDrawAtOpposingBorderComponent>
+        <Properties>
+          <Boundary type="CGRect" value="{{0, 0}, {480, 320}}" />
+        </Properties>
+      </WNDrawAtOpposingBorderComponent>
+    </Components>
+	<Properties>
+		<Position type="CGPoint" value="{432.456, 234.987}" />
+		<Tag type="int" value="666" />
+	</Properties>
+  </Entity>
+  <Entity>
+    <Components>
+      <WNSpriteComponent>
+		<Properties>
+			<File type="NSString" value="Icon.png" />
+			<Z type="int" value="0" />
+			<Tag type="int" value="100" />
+		</Properties>
+      </WNSpriteComponent>
+      <WNMoveComponent>
+        <Properties>
+          <Direction type="float" value="77.333" />
+          <Speed type="float" value="99" />
+        </Properties>
+      </WNMoveComponent>
+      <WNWrapAroundBorderComponent>
+        <Properties>
+          <Boundary type="CGRect" value="{{0, 0}, {480, 320}}" />
+        </Properties>
+      </WNWrapAroundBorderComponent>
+      <WNDrawAtOpposingBorderComponent>
+        <Properties>
+          <Boundary type="CGRect" value="{{0, 0}, {480, 320}}" />
+        </Properties>
+      </WNDrawAtOpposingBorderComponent>
+    </Components>
+    <Properties>
+      <Position type="CGPoint" value="{100, 100}" />
+		<Tag type="int" value="-1" />
+    </Properties>
+  </Entity>
+  <Entity>
+    <Components>
+      <WNSpriteComponent>
+		<Properties>
+			<File type="NSString" value="fps_images.png" />
+			<Z type="int" value="-1" />
+			<Tag type="int" value="-1" />
+		</Properties>
+      </WNSpriteComponent>
+      <WNMoveComponent>
+        <Properties>
+          <Direction type="float" value="166" />
+          <Speed type="float" value="199" />
+        </Properties>
+      </WNMoveComponent>
+      <WNWrapAroundBorderComponent>
+        <Properties>
+          <Boundary type="CGRect" value="{{0, 0}, {480, 320}}" />
+        </Properties>
+      </WNWrapAroundBorderComponent>
+      <WNDrawAtOpposingBorderComponent>
+        <Properties>
+          <Boundary type="CGRect" value="{{0, 0}, {480, 320}}" />
+        </Properties>
+      </WNDrawAtOpposingBorderComponent>
+    </Components>
+    <Properties>
+      <Position type="CGPoint" value="{400, 300}" />
+      <Scale type="float" value="1.0" />
+		<Tag type="int" value="-1" />
+    </Properties>
+  </Entity>
+
+  <Entity>
+    <Components>
+      <WNSpriteComponent>
+		<Properties>
+			<File type="NSString" value="Icon.png" />
+			<Z type="int" value="-2" />
+			<Tag type="int" value="-1" />
+		</Properties>
+      </WNSpriteComponent>
+      <WNMoveComponent>
+        <Properties>
+          <Direction type="float" value="222" />
+          <Speed type="float" value="19" />
+        </Properties>
+      </WNMoveComponent>
+      <WNWrapAroundBorderComponent>
+        <Properties>
+          <Boundary type="CGRect" value="{{200, 120}, {80, 80}}" />
+        </Properties>
+      </WNWrapAroundBorderComponent>
+    </Components>
+    <Properties>
+      <Position type="CGPoint" value="{240, 160}" />
+      <Scale type="float" value="1.0" />
+      <FlipY type="bool" value="0" />
+		<Tag type="int" value="-1" />
+    </Properties>
+		  <Entity>
+			<Components>
+			  <WNSpriteComponent>
+				<Properties>
+					<File type="NSString" value="Icon.png" />
+					<Z type="int" value="1" />
+					<Tag type="int" value="-1" />
+				</Properties>
+			  </WNSpriteComponent>
+			  <WNMoveComponent>
+				<Properties>
+				  <Direction type="float" value="-166" />
+				  <Speed type="float" value="1" />
+				</Properties>
+			  </WNMoveComponent>
+			</Components>
+			<Properties>
+			  <AnchorPoint type="CGPoint" value="{2, 4}" />
+			  <Scale type="float" value="0.255555" />
+			  <FlipX type="bool" value="0" />
+			  <Rotation type="float" value="0" />
+				<Tag type="int" value="-1" />
+			</Properties>
+		  </Entity>
+  </Entity>
+</Layer>

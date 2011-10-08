@@ -1,0 +1,16 @@
+//
+// Prefix header for all source files of the 'Sterntaler' target in the 'Sterntaler' project
+//
+
+#ifdef __OBJC__
+    #import <Cocoa/Cocoa.h>
+	
+	#import "UKHelperMacros.h"
+#endif
+
+
+#define DO_GRADIENT			1
+#define DO_NO_BACKGROUND	0
+#define DO_GLOW				0
+
+#define	FIX_BETWEEN_PIXELS	0

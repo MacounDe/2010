@@ -1,0 +1,76 @@
+{\rtf1\ansi\ansicpg1252\cocoartf1038\cocoasubrtf290
+{\fonttbl\f0\fnil\fcharset0 LucidaGrande;\f1\fnil\fcharset0 Monaco;}
+{\colortbl;\red255\green255\blue255;\red122\green128\blue85;\red72\green10\blue0;\red46\green46\blue46;
+}
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\ql\qnatural\pardirnatural
+
+\f0\b\fs22 \cf0 The ClassesFreeSourceCode folder contains source code that is available for free on the Internet and has no restrictive license added to it. Mistakes can be made - if you find your own source code here that you do not want to be used in this way, or know that certain source code has a restrictive license which does not cover commercial exploitation, please inform Steffen Itterheim at mailto:steffen@steffenitterheim.de and the offending source code will be promptly removed.
+\b0 \
+\
+If possible, credit is given to the original author even if the code was heavily modified. See the following readme.txt for more info.
+\f1\fs20 \cf2 \CocoaLigature0 \
+\pard\tx480\pardeftab480\ql\qnatural\pardirnatural
+\cf2 \
+\cf3 \
+Free cocos2d iPhone Source Code Collection\
+	collected and modified by Steffen Itterheim aka GamingHorror\
+		visit my blog: http://www.gaminghorror.net\
+		more about me: http://www.gametooldeveloper.com\
+		\
+Get the latest update from Codaset via git:\
+	git://codaset.com/gaminghorror/free-cocos2d-iphone-source-code-collection.git\
+\
+\
+I\'92m sharing generally useful classes for use with cocos2d iPhone which i\'92ve either written myself or (mostly) taken from elsewhere (credit given, including link to post where possible). I also modified, enhanced and fixed the code i found since it was often outdated and untested. You're welcome to make your own changes and additions as you see fit!\
+\
+All of my own source code and modifications are licensed under:\
+	Creative Commons Attribution 3.0 Unported License\
+	http://creativecommons.org/licenses/by/3.0/\
+\
+Meaning: you are free to share, remix and redistribute the source code i created and am sharing along with this package. I would certainly appreciate a link back to my homepage and credits but only where credits are due (remember this source code package includes a lot of work by others).\
+\
+However, code originally created by others sometimes does not have any explicit license attached to it - but since it was posted in forums, blog posts and other public places i assume it to be free, as in public domain. If it is not, and you would like your code to be removed or put under a specific license, let me know and i'll change it. For commercial application, if in doubt, please consult the original author of the source code. See the links i added in the source code.\
+\
+\
+DISCLAIMER:\
+	I make no guarantees that this code is free of bugs, works under all circumstances or even that it compiles at all.\
+	I update it irregularly and iPhone SDK updates among other things could break some of the code.\
+	I also use the code for many projects and try to keep a common source tree up to date - of course when integrating changes some things tend to break, and i may not catch that. I apologize if that happens and would suggest you try and submit your fix at the codaset repository of this package.\
+	\
+\
+The repository is here:	\
+		git://codaset.com/gaminghorror/free-cocos2d-iphone-source-code-collection.git\
+		\
+\
+=============================== FILE DESCRIPTIONS =======================================================\
+\
+AppStoreHelper \'96 open App Store to show all Apps made by a specific developer or company. Has methods for creating both iTunes links for the computer and on the iPhone\'92s App Store, which requires the link to be created differently.\
+\
+BundleHelper \'96 conveniently access the keys of the App\'92s info.plist, for example to get the App\'92s version number.\
+\
+LargeTextureLoader \'96 work in progress \'96 is supposed to load (larger) textures one by one via a scheduled method. I started this because textures take twice the memory in the frame they are loaded, if you load several larger textures that amount to 10 MB total but you load them all in the same frame, then this frame will require 20 MB and you may receive memory warnings. The solution is to wait a short while after each texture so cocos2d can free up the temporary memory. Again: work in progress but the concept is there.\
+\
+RemoveFromParentAction \'96 i found this on the cocos2d forum, it\'92s a neat solution to have a CCNode remove itself from its parent when the action executes. Very convenient.\
+\
+SimpleButton \'96 it wraps a CCMenu and a CCMenuItem to create a menu with just one item: a simple button. Makes it easier to create single buttons when you don\'92t need or can\'92t use a proper CCMenu, for example if your buttons are spread all over the screen, or have move or wiggle independently.\
+\
+TextureAtlasManager \'96 wraps the CCSpriteFrameCache to have more convenient access to it, getting a sprite by name, removing textures from the cache and the intention is to make it work with the LargeTextureLoader to avoid the huge memory usage if you have to load several Texture Atlas textures.\
+\
+LayoutHelper \'96 touch and drag sprites around to layout them visually instead of manually changing coordinates. Refer to Blog Post for more info.\
+\
+PlayMusicAction \'96 a CCAction that lets you queue several MP3 files which are played in succession.Refer to Blog Post for more info.\
+\
+AlertPrompt \'96 shows an AlertView that asks the user to enter some text. Original code by Jeff LaMarche, i made a small modification to the height of the view (a bit hack\'92ish but it works \'85 you\'92ll know it when you see it). Maybe that issue only appears if you\'92re in landscape mode. And if you know of a better way, or how to pre-fill the textbox with some text please let me know.\
+\
+SendMail with CocoaHelper \'96 allows you to use In-App Mail in any cocos2d app, and it works correctly both in Portrait and Landscape mode. You might want to read my quest to get In-App Mail working in Landscape mode. The SendMail and CocoaHelper code are originally put together from fragments i found in the cocos2d forum but i since have lost the links. However, the code has changed so much over time that i think i can now call it my own. Let me know if you want to be given credit for the original Cocoa integration and SendMail code fragments and i\'92ll add the link here. CocoaHelper\'92s static methods allows you to display/hide any ViewController\'92s views on top of cocos2d.\
+\
+LocaleHelper \'96 makes localization of your app easier. These static methods allow you to get the preferred language, get/set a specific language and get/set the language string (\'93en\'94, \'93de\'94, etc.). It currently supports only english and german but can be easily enhanced to support more languages \'96 you just need to add it to the language enum and the language\'92s string identifier. I use it in SendMail to get the correct language strings via NSLocalizedStringFromTable for the \'93email is not setup on this device\'94 AlertView.\
+\
+MenuGrid \'96 it bothered me that CCMenu only aligned menu items either horizontally or vertically, i needed a grid! Since i was not successful in subclassing CCMenu i simply copied what i needed from CCMenu and enhanced it so that i could align my CCMenuItem sprites in a grid layout. I used it to display the tiny 51 Japanese Characters where they are all on the screen at once. In hindsight i probably could have done it by using several CCMenu next to each other but i think there was some reason to do it with a MenuGrid instead, i can\'92t remember why though.\
+\
+Screenshot \'96 static methods for creating a screenshot in UIImage, CCTexture2D and PNG (NSData) format. Refer to original cocos2d forum post by manucorporat for more info. This code is intended to be included into cocos2d so the code may already be integrated in cocos2d\'92s CCDirector by the time you read this.\
+\
+ShakeHelper \'96 detects screen shakes and calls a delegate. The original code was posted on StackOverflow by millenomi, developer of the Diceshaker App.\
+\
+Utilities \'96 a collection of useful static methods. I made a method that cleans out certain short-lived textures from CCTextureCache to preserve memory. Textures or Sprites that are given the particular kDontCacheTexture tag can be removed from CCTextureCache with a single call anytime you want. Another method gets a random number that is in a range but excludes a particular number, useful when you want a random number that is different than the one you currently use. And lastly i found some code to get the available free memory on the device. Print this on a CCLabel to see if you\'92re low on memory or how much memory you saved by using the kDontCacheTexture tag or by making other changes, for example switching to a TextureAtlas.\cf4 \
+}
